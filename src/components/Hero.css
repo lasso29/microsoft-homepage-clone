@@ -1,0 +1,41 @@
+.hero{
+    width: 100%;
+    position: relative;
+}
+.hero-image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero-content{
+    position: absolute;
+    top: 52%;
+    left: 52%;
+    transform: translateY(-50%);
+    max-width: 480px;
+}
+
+.hero-content h1{
+    font-size: 37px;
+    font-weight: 600;
+    line-height:1.2;
+    margin-bottom: 20px;
+}
+
+.hero-content p{
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    color: rgb(38, 38, 38);;
+}
+
+.hero-content .hero-content-icon{
+    background-color:rgb(0,109,193);
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
