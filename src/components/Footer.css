@@ -1,0 +1,79 @@
+.footer-first-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.footer-first-container h2{
+    font-size: 16px;
+    color: rgb(14, 23, 38);
+    font-weight: 600;
+}
+
+.footer-socialmedia-icon{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.twitter, .linkedin{
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 4px;
+    box-shadow: 1px 1px 4px rgb(41, 40, 40);
+}
+
+
+.footer-second-container{
+    background-color: rgb(242, 242, 242);
+}
+
+.list-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.list-container h2{
+    color: rgb(97 97 97);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.list-container li a{
+    color: rgb(97 97 97);
+    font-size: 10px;
+}
+
+.list-container li a:hover{
+    text-decoration: underline;
+}
+
+.footer-third-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(242, 242, 242);
+    padding: 6px;
+}
+
+.left-container ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.right-container ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.left-container ul li a, .right-container ul li a{
+    color: rgb(97 97 97);
+    font-size: 10px;
+}
